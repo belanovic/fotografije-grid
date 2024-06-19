@@ -1,49 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Image Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .landscape-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-auto-rows: 150px;
-            width: 90%;
-            max-width: 1200px;
-            gap: 0; /* No gap between images */
-        }
-        .landscape-gallery a {
-            display: block;
-            width: 100%;
-            height: 100%;
-        }
-        .landscape-gallery img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .landscape-gallery a:nth-last-child(odd):first-child {
-            grid-column: span 2;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Document</title>
 </head>
 <body>
-    <div class="landscape-gallery">
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/tDc31d1/Full-HD-Golovi-00-26-33-20-Still001.png" alt="Full-HD-Golovi-00-26-33-20-Still001" border="0"></a>
-        <a href="https://ibb.co/GHhMNbb"><img src="https://i.ibb.co/dmhpxzz/12309510.jpg" alt="12309510" border="0"></a>
- 
-
+      <div class="landscape-gallery">
+        <a href="https://ibb.co/syFfGhT"><img src="https://i.ibb.co/0hf7Sk0/12055787.jpg" alt="12055787" border="0"></a>
+<a href="https://ibb.co/dMVNSqw"><img src="https://i.ibb.co/h94GkjJ/12173834.jpg" alt="12173834" border="0"></a>
+<a href="https://ibb.co/RyvqJTX"><img src="https://i.ibb.co/gVjxcZ0/12173830.jpg" alt="12173830" border="0"></a>
     </div>
 </body>
 </html>
